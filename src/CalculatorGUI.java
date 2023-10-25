@@ -36,10 +36,10 @@ public class CalculatorGUI implements ActionListener {
     private JButton clear;
     private int num1;
     private int num2;
-    public Color perriwinkle = new Color(134, 192, 247);
+    public Color periwinkle = new Color(134, 192, 247);
 
-    public Font BTN_FNT = new Font(Font.MONOSPACED,Font.BOLD,50);
-    public Font NMBR_FNT = new Font(Font.MONOSPACED,Font.BOLD,20);
+    public Font BTN_FNT = new Font(Font.SERIF,Font.BOLD,50);
+    public Font NMBR_FNT = new Font(Font.SERIF,Font.BOLD,25);
     private String operation;
 
 
@@ -59,98 +59,98 @@ public class CalculatorGUI implements ActionListener {
 
         exponent = new JButton("x^y");
         exponent.addActionListener(this); //makes button clickable
-        exponent.setForeground(perriwinkle);
+        exponent.setForeground(periwinkle);
         exponent.setFont(NMBR_FNT);
 
         cubed = new JButton("x^3");
         cubed.addActionListener(this); //makes button clickable
-        cubed.setForeground(perriwinkle);
+        cubed.setForeground(periwinkle);
         cubed.setFont(NMBR_FNT);
 
         squared = new JButton("x^2");
         squared.addActionListener(this); //makes button clickable
-        squared.setForeground(perriwinkle);
+        squared.setForeground(periwinkle);
         squared.setFont(NMBR_FNT);
 
         add = new JButton("+");
         add.addActionListener(this); //makes button clickable
-        add.setForeground(perriwinkle);
+        add.setForeground(periwinkle);
         add.setFont(NMBR_FNT);
 
         subtract = new JButton("-");
         subtract.addActionListener(this); //makes button clickable
-        subtract.setForeground(perriwinkle);
+        subtract.setForeground(periwinkle);
         subtract.setFont(NMBR_FNT);
 
-        multiply = new JButton("*");
+        multiply = new JButton("×");
         multiply.addActionListener(this); //makes button clickable
-        multiply.setForeground(perriwinkle);
+        multiply.setForeground(periwinkle);
         multiply.setFont(NMBR_FNT);
 
         divide = new JButton("÷");
         divide.addActionListener(this); //makes button clickable
-        divide.setForeground(perriwinkle);
+        divide.setForeground(periwinkle);
         divide.setFont(NMBR_FNT);
 
         equal = new JButton("=");
         equal.addActionListener(this); //makes button clickable
-        equal.setForeground(perriwinkle);
+        equal.setForeground(periwinkle);
         equal.setFont(BTN_FNT);
 
         one = new JButton("1");
         one.addActionListener(this); //makes button clickable
-        one.setForeground(perriwinkle);
+        one.setForeground(periwinkle);
         one.setFont(BTN_FNT);
 
 
         two = new JButton("2");
         two.addActionListener(this); //makes button clickable
-        two.setForeground(perriwinkle);
+        two.setForeground(periwinkle);
         two.setFont(BTN_FNT);
 
         three = new JButton("3");
         three.addActionListener(this); //makes button clickable
-        three.setForeground(perriwinkle);
+        three.setForeground(periwinkle);
         three.setFont(BTN_FNT);
 
         four = new JButton("4");
         four.addActionListener(this); //makes button clickable
-        four.setForeground(perriwinkle);
+        four.setForeground(periwinkle);
         four.setFont(BTN_FNT);
 
         five = new JButton("5");
         five.addActionListener(this); //makes button clickable
-        five.setForeground(perriwinkle);
+        five.setForeground(periwinkle);
         five.setFont(BTN_FNT);
 
         six = new JButton("6");
         six.addActionListener(this); //makes button clickable
-        six.setForeground(perriwinkle);
+        six.setForeground(periwinkle);
         six.setFont(BTN_FNT);
 
         seven = new JButton("7");
         seven.addActionListener(this); //makes button clickable
-        seven.setForeground(perriwinkle);
+        seven.setForeground(periwinkle);
         seven.setFont(BTN_FNT);
 
         eight = new JButton("8");
         eight.addActionListener(this); //makes button clickable
-        eight.setForeground(perriwinkle);
+        eight.setForeground(periwinkle);
         eight.setFont(BTN_FNT);
 
         nine = new JButton("9");
         nine.addActionListener(this); //makes button clickable
-        nine.setForeground(perriwinkle);
+        nine.setForeground(periwinkle);
         nine.setFont(BTN_FNT);
 
         zero = new JButton("0");
         zero.addActionListener(this); //makes button clickable
-        zero.setForeground(perriwinkle);
+        zero.setForeground(periwinkle);
         zero.setFont(BTN_FNT);
 
         clear = new JButton("C");
         clear.addActionListener(this); //makes button clickable
-        clear.setForeground(perriwinkle);
+        clear.setForeground(periwinkle);
         clear.setFont(BTN_FNT);
 
 
@@ -192,10 +192,10 @@ public class CalculatorGUI implements ActionListener {
 
 
         mainFrame.add(panel);
-        mainFrame.setBackground(perriwinkle);
-        panel.setBackground(perriwinkle);
-        panel2.setBackground(perriwinkle);
-        panel3.setBackground(perriwinkle);
+        mainFrame.setBackground(periwinkle);
+        panel.setBackground(periwinkle);
+        panel2.setBackground(periwinkle);
+        panel3.setBackground(periwinkle);
         mainFrame.setSize(400, 600);
 
         mainFrame.setVisible(true);
